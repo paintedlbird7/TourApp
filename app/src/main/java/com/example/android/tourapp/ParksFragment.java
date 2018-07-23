@@ -84,7 +84,6 @@ public class ParksFragment extends Fragment {
 
         // Create a list of words
         final ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word("What is your name?", "innә oyaase'nә", imageResourceId, R.raw.phrase_what_is_your_nam));
         words.add(new Word("My name is..", "michәksәs?", imageResourceId, R.raw.phrase_my_name_is));
         words.add(new Word("I’m feeling good.", "kuchi achit", imageResourceId, R.raw.phrase_im_feeling_good));
         words.add(new Word("Are you coming?", "әәnәs'aa?", imageResourceId, R.raw.phrase_are_you_coming));
