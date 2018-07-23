@@ -54,13 +54,6 @@ public class CategoryAdapter extends FragmentPagerAdapter {
         return 4;
     }
 
-    /**
-     * Return the total number of pages.
-     */
-    @Override
-    public int getCount() {
-        return 4;
-    }
 
     @Override
     public CharSequence getPageTitle(int position) {
