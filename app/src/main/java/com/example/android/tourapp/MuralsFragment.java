@@ -85,12 +85,14 @@ public class MuralsFragment extends Fragment {
         //words.add(new Word("SJ", "otiiko", R.drawable.sj, R.raw.number_two));
         //words.add(new Word("Kids Musuem_change text", "tolookosu", R.drawable.kidsmusuem, R.raw.number_three));
         //words.add(new Word("Welcome to SJ", "oyyisa", R.drawable.welcome, R.raw.number_four));
-        words.add(new Word("Heart of Silicon Valley", "massokka", R.drawable.heart_of_silicon_valley, R.raw.number_five));
-        words.add(new Word("Hearts Delight", "massokka", R.drawable.hearts_delight, R.raw.number_five));
-        words.add(new Word("Eastridge", "lutti", R.drawable.eastridge, R.raw.number_one));
-        words.add(new Word("Alum Rock", "tolookosu", R.drawable.alum_rock, R.raw.number_three));
-        words.add(new Word("Ms Flo", "tolookosu", R.drawable.alum_rock_mural, R.raw.number_three));
-        words.add(new Word("Alum Rock Mural", "tolookosu", R.drawable.alumrock, R.raw.number_three));
+        //words.add(new Word("Heart of Silicon Valley", "massokka", R.drawable.heart_of_silicon_valley, R.raw.number_five));
+        //words.add(new Word("Hearts Delight", "massokka", R.drawable.hearts_delight, R.raw.number_five));
+        words.add(new Word("Lila Gemelos", "Heart of Silicon Valley", R.drawable.eastridge, R.raw.number_one));
+        words.add(new Word("Carlos Rodriguez", "Alum Rock", R.drawable.alum_rock, R.raw.number_three));
+        //words.add(new Word("Ms Flo", "tolookosu", R.drawable.alum_rock_mural, R.raw.number_three));
+        //words.add(new Word("Alum Rock Mural", "tolookosu", R.drawable.alumrock, R.raw.number_three));
+        words.add(new Word("Jose Meza V", "Mural de La Raza", R.drawable.mural_de_la_raza, R.raw.number_five));
+
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.

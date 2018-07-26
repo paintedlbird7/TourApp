@@ -60,11 +60,12 @@ public class CategoryAdapter extends FragmentPagerAdapter {
         if (position == 0) {
             return mContext.getString(R.string.category_murals);
         } else if (position == 1) {
-            return mContext.getString(R.string.category_shop);
+            return mContext.getString(R.string.category_gallery);
         } else if (position == 2) {
-            return mContext.getString(R.string.category_dine);
+            return mContext.getString(R.string.category_map);
         } else {
-            return mContext.getString(R.string.category_parks);
+            return mContext.getString(R.string.category_artist
+            );
         }
     }
 }
