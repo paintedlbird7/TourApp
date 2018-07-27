@@ -80,16 +80,14 @@ public class DineFragment extends Fragment {
 
         // Create a list of words
         final ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word("red", "wetetti", R.drawable.color_red, R.raw.color_red));
-        words.add(new Word("black", "kululli",  R.drawable.color_black, R.raw.color_black));
-        words.add(new Word("white", "kelelli",  R.drawable.color_brown, R.raw.color_white));
-        words.add(new Word("green", "chokokki",  R.drawable.color_white, R.raw.color_green));
-        words.add(new Word("brown", "takaakki",  R.drawable.color_gray, R.raw.color_brown));
+        words.add(new Word("2360 Mc Laughlin Ave\n", "Antojitos", R.drawable.antojitos_ttt, R.raw.color_red));
+        words.add(new Word("2520 Story Rd\n", "Tres Reyes",  R.drawable.tres_reyes, R.raw.color_black));
+        words.add(new Word("1151 Mcginness Ave", "Carnitas",  R.drawable.carnitas, R.raw.color_white));
 
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.
-        WordAdapter adapter = new WordAdapter(getActivity(), words, R.color.category_colors);
+        WordAdapter adapter = new WordAdapter(getActivity(), words, R.color.category_dine);
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
