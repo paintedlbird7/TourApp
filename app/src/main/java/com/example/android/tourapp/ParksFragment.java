@@ -84,10 +84,14 @@ public class ParksFragment extends Fragment {
 
         // Create a list of words
         final ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word("My name is..", "michәksәs?", imageResourceId, R.raw.phrase_my_name_is));
-        words.add(new Word("I’m feeling good.", "kuchi achit", imageResourceId, R.raw.phrase_im_feeling_good));
-        words.add(new Word("Are you coming?", "әәnәs'aa?", imageResourceId, R.raw.phrase_are_you_coming));
-        words.add(new Word("Let’s go", "yoowutis", imageResourceId, R.raw.phrase_lets_go));
+        words.add(new Word("f", "Emma Prusch Farm Park", R.drawable.emmapruschfarmhouse, R.raw.family_father));
+        words.add(new Word("m", "Alum Rock Park", R.drawable.alum_rock_park, R.raw.family_mother));
+        //words.add(new Word("s", "Lions Plaza", R.drawable.lionplaza, R.raw.family_son));
+//
+//        words.add(new Word("My name is..", "michәksәs?", imageResourceId, R.raw.phrase_my_name_is));
+//        words.add(new Word("I’m feeling good.", "kuchi achit", imageResourceId, R.raw.phrase_im_feeling_good));
+//        words.add(new Word("Are you coming?", "әәnәs'aa?", imageResourceId, R.raw.phrase_are_you_coming));
+//        words.add(new Word("Let’s go", "yoowutis", imageResourceId, R.raw.phrase_lets_go));
 
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The

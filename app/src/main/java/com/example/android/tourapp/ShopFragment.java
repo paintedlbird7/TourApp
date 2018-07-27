@@ -88,11 +88,11 @@ public class ShopFragment extends Fragment {
 
         // Create a list of words
         final ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word("father", "әpә", R.drawable.family_father, R.raw.family_father));
-        words.add(new Word("mother", "әṭa", R.drawable.family_mother, R.raw.family_mother));
-        words.add(new Word("son", "angsi", R.drawable.family_son, R.raw.family_son));
-        words.add(new Word("daughter", "tune", R.drawable.family_daughter, R.raw.family_daughter));
-        words.add(new Word("grandmother", "ama", R.drawable.family_grandmother, R.raw.family_grandmother));
+        words.add(new Word("f", "Berryessa Flea Market", R.drawable.san_jose_flea_market, R.raw.family_father));
+        words.add(new Word("m", "Eastridge", R.drawable.eastridge_sign, R.raw.family_mother));
+        words.add(new Word("s", "Lions Plaza", R.drawable.lionplaza, R.raw.family_son));
+//        words.add(new Word("daughter", "tune", R.drawable.family_daughter, R.raw.family_daughter));
+//        words.add(new Word("grandmother", "ama", R.drawable.family_grandmother, R.raw.family_grandmother));
 
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
