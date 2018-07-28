@@ -3,8 +3,8 @@
     <item name="rootView" type="id" />
     <item name="list" type="id" />
     <item name="wordlist" type="id" />
-    <item name="numbers" type="id" />
-    <item name="family" type="id" />
-    <item name="colors" type="id" />
-    <item name="phrases" type="id" />
+    <item name="mural" type="id" />
+    <item name="shop" type="id" />
+    <item name="dine" type="id" />
+    <item name="parks" type="id" />
 </resources>

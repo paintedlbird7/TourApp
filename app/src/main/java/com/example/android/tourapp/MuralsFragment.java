@@ -80,9 +80,10 @@ public class MuralsFragment extends Fragment {
 
         // Create a list of words
         final ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word("Lila Gemelos", "Heart of Silicon Valley", R.drawable.eastridge, R.raw.number_three));
+        words.add(new Word("Lila Gemelos", "Heart of Silicon Valley", R.drawable.eastridge, R.raw.number_one));
         words.add(new Word("Carlos Rodriguez", "Alum Rock", R.drawable.alum_rock, R.raw.number_three));
         words.add(new Word("Jose Meza V", "Mural de La Raza", R.drawable.mural_de_la_raza, R.raw.number_five));
+        words.add(new Word("Celia Cruz, Dion Warwick", "Do you know the way to SJ", R.drawable.dionne_celia_cruz, R.raw.do_you_know_the_way_to_san_jose_dionne_warwick_burt_bacharach));
 
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
@@ -152,7 +153,7 @@ public class MuralsFragment extends Fragment {
         if (mMediaPlayer != null) {
             // Regardless of the current state of the media player, release its resources
             // because we no longer need it.
-            mMediaPlayer.release();
+           mMediaPlayer.release();
 
             // Set the media player back to null. For our code, we've decided that
             // setting the media player to null is an easy way to tell that the media player

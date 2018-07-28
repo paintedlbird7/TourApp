@@ -83,6 +83,7 @@ public class DineFragment extends Fragment {
         words.add(new Word("2360 Mc Laughlin Ave\n", "Antojitos", R.drawable.antojitos_ttt, R.raw.color_red));
         words.add(new Word("2520 Story Rd\n", "Tres Reyes",  R.drawable.tres_reyes, R.raw.color_black));
         words.add(new Word("1151 Mcginness Ave", "Carnitas",  R.drawable.carnitas, R.raw.color_white));
+        words.add(new Word("Celia Cruz, Dion Warwick", "Do you know the way to SJ", R.drawable.dionne_celia_cruz, R.raw.do_you_know_the_way_to_san_jose_dionne_warwick_burt_bacharach));
 
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The

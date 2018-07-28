@@ -87,7 +87,9 @@ public class ParksFragment extends Fragment {
         words.add(new Word("647 King Rd", "Emma Prusch Farm Park", R.drawable.emmapruschfarmhouse, R.raw.family_father));
         words.add(new Word("15350 Penitencia Creek Rd", "Alum Rock Park", R.drawable.alum_rock_park, R.raw.family_mother));
         words.add(new Word("7281 Mt Hamilton Rd", "Mount Halmiton", R.drawable.mt_hamilton, R.raw.family_son));
-//
+        words.add(new Word("Celia Cruz, Dion Warwick", "Do you know the way to SJ", R.drawable.dionne_celia_cruz, R.raw.do_you_know_the_way_to_san_jose_dionne_warwick_burt_bacharach));
+
+
 //        words.add(new Word("My name is..", "michәksәs?", imageResourceId, R.raw.phrase_my_name_is));
 //        words.add(new Word("I’m feeling good.", "kuchi achit", imageResourceId, R.raw.phrase_im_feeling_good));
 //        words.add(new Word("Are you coming?", "әәnәs'aa?", imageResourceId, R.raw.phrase_are_you_coming));

@@ -91,7 +91,10 @@ public class ShopFragment extends Fragment {
         words.add(new Word("1590 Berryessa Rd", "Berryessa Flea Market", R.drawable.san_jose_flea_market, R.raw.family_father));
         words.add(new Word("2200 Eastridge Loop", "Eastridge", R.drawable.eastridge_sign, R.raw.family_mother));
         words.add(new Word("1710 Tully Rd,", "Lions Plaza", R.drawable.lionplaza, R.raw.family_son));
-//        words.add(new Word("daughter", "tune", R.drawable.family_daughter, R.raw.family_daughter));
+        words.add(new Word("Celia Cruz, Dion Warwick", "Do you know the way to SJ", R.drawable.dionne_celia_cruz, R.raw.do_you_know_the_way_to_san_jose_dionne_warwick_burt_bacharach));
+
+
+        //        words.add(new Word("daughter", "tune", R.drawable.family_daughter, R.raw.family_daughter));
 //        words.add(new Word("grandmother", "ama", R.drawable.family_grandmother, R.raw.family_grandmother));
 
 
