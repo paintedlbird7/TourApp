@@ -15,9 +15,6 @@ import java.util.ArrayList;
  */
 public class MuralsFragment extends Fragment {
 
-
-    private int imageResourceId;
-
     public MuralsFragment() {
         // Required empty public constructor
     }
@@ -29,9 +26,9 @@ public class MuralsFragment extends Fragment {
 
         // Create a list of artist & murals.
         final ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word("Lila Gemelos", "Heart of Silicon Valley", R.drawable.eastridge));
-        words.add(new Word("Carlos Rodriguez", "Alum Rock", R.drawable.alum_rock_park));
-        words.add(new Word("Jose Meza V", "Mural de La Raza", R.drawable.mural_de_la_raza));
+        words.add(new Word(getString(R.string.lila_gemelos), getString(R.string.heart_of_silicon_valley), R.drawable.eastridge));
+        words.add(new Word(getString(R.string.carlos_rodriguez), getString(R.string.alum_rock), R.drawable.alum_rock_park));
+        words.add(new Word(getString(R.string.jose_meza_v), getString(R.string.mural_de_la_raza), R.drawable.mural_de_la_raza));
 
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The

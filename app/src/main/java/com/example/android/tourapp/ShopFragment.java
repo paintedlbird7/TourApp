@@ -21,9 +21,6 @@ import java.util.ArrayList;
  */
 public class ShopFragment extends Fragment {
 
-
-    private int imageResourceId;
-
     public ShopFragment() {
         // Required empty public constructor
     }
@@ -35,9 +32,9 @@ public class ShopFragment extends Fragment {
 
         // Create a list of malls or places to shop.
         final ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word("1590 Berryessa Rd", "Berryessa Flea Market", R.drawable.san_jose_flea_market));
-        words.add(new Word("2200 Eastridge Loop", "Eastridge Mall", R.drawable.eastridge_sign));
-        words.add(new Word("1710 Tully Rd,", "Lions Plaza", R.drawable.lionplaza));
+        words.add(new Word(getString(R.string.berryessa_rd), getString(R.string.flea_market), R.drawable.san_jose_flea_market));
+        words.add(new Word(getString(R.string.eastridge_loop), getString(R.string.eastridge_mall), R.drawable.eastridge_sign));
+        words.add(new Word(getString(R.string.tully_rd), getString(R.string.lions_plaza), R.drawable.lionplaza));
 
         WordAdapter adapter = new WordAdapter(getActivity(), words, R.color.category_shop);
 

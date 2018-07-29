@@ -18,9 +18,6 @@ import java.util.ArrayList;
  */
 public class ParksFragment extends Fragment {
 
-
-    private int imageResourceId;
-
     public ParksFragment() {
         // Required empty public constructor
     }
@@ -32,9 +29,9 @@ public class ParksFragment extends Fragment {
 
         // Create a list of parks.
         final ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word("647 King Rd", "Emma Prusch Farm Park", R.drawable.emmapruschfarmhouse));
-        words.add(new Word("15350 Penitencia Creek Rd", "Alum Rock Park", R.drawable.alum_rock_park));
-        words.add(new Word("7281 Mt Hamilton Rd", "Mount Halmiton", R.drawable.mt_hamilton));
+        words.add(new Word(getString(R.string.king_rd), getString(R.string.emma_prusch_farm), R.drawable.emmapruschfarmhouse));
+        words.add(new Word(getString(R.string.penetencia_creek), getString(R.string.alum_rock_park), R.drawable.alum_rock_park));
+        words.add(new Word(getString(R.string.mt_hamilton), getString(R.string.mount_halmiton), R.drawable.mt_hamilton));
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.

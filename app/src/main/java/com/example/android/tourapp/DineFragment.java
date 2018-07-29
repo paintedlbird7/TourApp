@@ -23,9 +23,9 @@ public class DineFragment extends Fragment {
 
         // Create a list of words
         final ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word("2360 Mc Laughlin Ave\n", "Antojitos", R.drawable.antojitos_ttt));
-        words.add(new Word("2520 Story Rd\n", "Tres Reyes", R.drawable.tres_reyes));
-        words.add(new Word("1151 Mcginness Ave", "Carnitas", R.drawable.carnitas));
+        words.add(new Word(getString(R.string.antojitos), getString(R.string.antojitos2), R.drawable.antojitos_ttt));
+        words.add(new Word(getString(R.string.tres_reyes), getString(R.string.tres_reyes2), R.drawable.tres_reyes));
+        words.add(new Word(getString(R.string.carnitas), getString(R.string.carnitas2), R.drawable.carnitas));
 
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
