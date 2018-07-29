@@ -20,9 +20,6 @@ public class Word {
     // Constant value that represents no image was provided for the word
     private static final int NO_IMAGE_PROVIDED = -1;
 
-    // Audio resource ID for the word
-    //private int mAudioResourceId;
-
     /**
      * Create a new Word object.
      *
@@ -35,7 +32,6 @@ public class Word {
         mDefaultTranslation = defaultTranslation;
         mMiwokTranslation = miwokTranslation;
         mImageResourceId = imageResourceId;
-        //mAudioResourceId = audioResourseId;
     }
 
     /**
@@ -62,16 +58,4 @@ public class Word {
     public boolean hasImage() {
         return mImageResourceId != NO_IMAGE_PROVIDED;
     }
-
-//    public int getmAudioResourceId() {
-//        return mAudioResourceId;
-//    }
-//
-//    public int getAudioResourceId() {
-//        return mAudioResourceId;
-//    }
 }
-
-
-
-

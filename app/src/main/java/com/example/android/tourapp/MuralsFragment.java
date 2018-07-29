@@ -11,7 +11,7 @@ import android.widget.ListView;
 import java.util.ArrayList;
 
 /**
- * {@link Fragment} that displays a list of number vocabulary words.
+ * {@link Fragment} that displays a list of murals.
  */
 public class MuralsFragment extends Fragment {
 
@@ -27,9 +27,8 @@ public class MuralsFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.word_list, container, false);
 
-        // Create a list of words
+        // Create a list of artist & murals.
         final ArrayList<Word> words = new ArrayList<Word>();
-        //        // Create a list of words
         words.add(new Word("Lila Gemelos", "Heart of Silicon Valley", R.drawable.eastridge));
         words.add(new Word("Carlos Rodriguez", "Alum Rock", R.drawable.alum_rock_park));
         words.add(new Word("Jose Meza V", "Mural de La Raza", R.drawable.mural_de_la_raza));
@@ -47,10 +46,6 @@ public class MuralsFragment extends Fragment {
         // Make the {@link ListView} use the {@link WordAdapter} we created above, so that the
         // {@link ListView} will display list items for each {@link Word} in the list.
         listView.setAdapter(adapter);
-
-        // Set a click listener to play the audio when the list item is clicked on
-        //listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-
 
         return rootView;
     }

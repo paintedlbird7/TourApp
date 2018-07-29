@@ -14,7 +14,7 @@ import android.widget.ListView;
 import java.util.ArrayList;
 
 /**
- * {@link Fragment} that displays a list of number vocabulary words.
+ * {@link Fragment} that displays a list of parks.
  */
 public class ParksFragment extends Fragment {
 
@@ -30,13 +30,11 @@ public class ParksFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.word_list, container, false);
 
-        // Create a list of words
+        // Create a list of parks.
         final ArrayList<Word> words = new ArrayList<Word>();
         words.add(new Word("647 King Rd", "Emma Prusch Farm Park", R.drawable.emmapruschfarmhouse));
         words.add(new Word("15350 Penitencia Creek Rd", "Alum Rock Park", R.drawable.alum_rock_park));
         words.add(new Word("7281 Mt Hamilton Rd", "Mount Halmiton", R.drawable.mt_hamilton));
-        //words.add(new Word("Celia Cruz, Dion Warwick", "Do you know the way to SJ"));
-
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.
@@ -50,10 +48,6 @@ public class ParksFragment extends Fragment {
         // Make the {@link ListView} use the {@link WordAdapter} we created above, so that the
         // {@link ListView} will display list items for each {@link Word} in the list.
         listView.setAdapter(adapter);
-
-        // Set a click listener to play the audio when the list item is clicked on
-        //listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-
 
         return rootView;
     }

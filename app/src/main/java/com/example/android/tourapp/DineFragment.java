@@ -11,7 +11,7 @@ import android.widget.ListView;
 import java.util.ArrayList;
 
 /**
- * {@link Fragment} that displays a list of number vocabulary words.
+ * {@link Fragment} that displays a list of dining places.
  */
 public class DineFragment extends Fragment {
 
@@ -20,9 +20,6 @@ public class DineFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.word_list, container, false);
-
-        // Create and setup the {@link AudioManager} to request audio focus
-        // mAudioManager = (AudioManager) getActivity().getSystemService(Context.AUDIO_SERVICE);
 
         // Create a list of words
         final ArrayList<Word> words = new ArrayList<Word>();
@@ -45,8 +42,7 @@ public class DineFragment extends Fragment {
         listView.setAdapter(adapter);
 
 
+        return rootView;
 
-return rootView;
-
-}
+    }
 }

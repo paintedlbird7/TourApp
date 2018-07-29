@@ -18,7 +18,7 @@ import java.util.List;
 
 public class WordAdapter extends ArrayAdapter<Word> {
 
-    //private TextView miwokTextView;
+    //private TextView;
 
     private int mColorResourceId;
 
@@ -30,23 +30,9 @@ public class WordAdapter extends ArrayAdapter<Word> {
     }
 
 
-
-
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
 
-
-//        public AndroidFlavorAdapter(Activity context, ArrayList<AndroidFlavor> androidFlavors) {
-//            // Here, we initialize the ArrayAdapter's internal storage for the context and the list.
-//            // the second argument is used when the ArrayAdapter is populating a single TextView.
-//            // Because this is a custom adapter for two TextViews and an ImageView, the adapter is not
-//            // going to use this second argument, so it can be any value. Here, we used 0.
-//            super(context, 0, androidFlavors);
-//        }
-//
-        //return super.getView(position,convertView,parent);
-        //    public View getView(int position, View convertView, ViewGroup parent) {
-        // Check if the existing view is being reused, otherwise inflate the view
         View listItemView = convertView;
         if (listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent, false);
@@ -61,12 +47,6 @@ public class WordAdapter extends ArrayAdapter<Word> {
         // set this text on the name TextView
         miwokTextView.setText(currentWord.getMiwokTranslation());
 
-
-//        //find the textview in list_item with id miwok_text_view
-//        TextView miwokTextView = (TextView) listItemView.findViewById(R.id.miwok_text_view);
-//        //gets the miwok Translation and set it to the text of this textView
-//        miwokTextView.setText(word_item.getMiwokTranslation());
-
         // Find the TextView in the list_item.xml layout with the ID version_number
         TextView defaultTextView = (TextView) listItemView.findViewById(R.id.default_text_view);
         // Get the version number from the current AndroidFlavor object and
@@ -79,11 +59,10 @@ public class WordAdapter extends ArrayAdapter<Word> {
         // set the ImageView to the image resource specified in the current Word
         //imageView.setImageResource(currentWord.getImageResourceId());
 
-        if(currentWord.hasImage()) {
+        if (currentWord.hasImage()) {
 
             imageView.setImageResource(currentWord.getImageResourceId());
-        }
-        else{
+        } else {
             imageView.setVisibility(View.GONE);
         }
 
@@ -98,10 +77,4 @@ public class WordAdapter extends ArrayAdapter<Word> {
         // so that it can be shown in the ListView
         return listItemView;
     }
-
-
 }
-
-
-
-

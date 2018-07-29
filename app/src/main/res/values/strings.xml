@@ -128,4 +128,6 @@
     <!-- Vocabulary phrase for "Come here." [CHAR LIMIT=20] -->
     <string name="phrase_come_here">Come here.</string>
     <string name="hello_blank_fragment">hello_blank_fragment</string>
+    <string name="text">lutti</string>
+    <string name="text2">one</string>
 </resources>

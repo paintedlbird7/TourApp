@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="background">88dp</dimen>
+    <dimen name="layout_width">88dp</dimen>
+    <dimen name="layout_height">88dp</dimen>
+    <dimen name="paddingLeft">16dp</dimen>
+    <dimen name="layout_height2">0dp</dimen>
+    <dimen name="layout_height3">0dp</dimen>
+</resources>
